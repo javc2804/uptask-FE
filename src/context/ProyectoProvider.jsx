@@ -185,7 +185,6 @@ const ProyectosProvider = ({ children }) => {
     }
 
     const handleModalEditarTarea = tarea => {
-        console.log(tarea)
         setTarea(tarea)
         setModalFormularioTarea(true)
     }
@@ -283,7 +282,6 @@ const ProyectosProvider = ({ children }) => {
                 }
             }
             const { data } = await clienteAxios.post(`/proyectos/colaboradores`, { email }, config)
-            console.log(data)
             setColaborador(data)
             setAlerta({})
         } catch (error) {

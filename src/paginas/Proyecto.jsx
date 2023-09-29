@@ -55,8 +55,6 @@ const Proyecto = () => {
 
   const admin = useAdmin()
   
-  console.log(proyecto)
-
   if (cargando) return 'cargando...'
 
 

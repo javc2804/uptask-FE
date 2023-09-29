@@ -150,7 +150,7 @@ export default function Registrar() {
           className='block text-center my-5 text-slate-500 uppercase text-sm'
           to="/"
         >
-          ya tienes una cuenta? Inicia sesión
+          ¿Ya tienes una cuenta? Inicia sesión
         </Link>
       </nav>
     </>

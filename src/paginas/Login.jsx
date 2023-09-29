@@ -25,7 +25,6 @@ export default function Login() {
     try {
       const { data } = await clienteAxios.post(`/usuarios/login`, { email, password })
       setAlerta({})
-      console.log(data)
       localStorage.setItem('token',data.token)
       setAuth(data)
       navigate('/proyectos')
