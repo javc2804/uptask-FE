@@ -93,13 +93,13 @@ export default function Login() {
           className='block text-center my-5 text-slate-500 uppercase text-sm'
           to="/registrar"
         >
-          No tienes una cuenta?  Regístrate
+          ¿No tienes una cuenta?  Regístrate
         </Link>
         <Link
           className='block text-center my-5 text-slate-500 uppercase text-sm'
           to="/olvide-password"
         >
-          Olvide mi password? 
+          ¿Olvidé mi password? 
         </Link>
       </nav>
     </>
